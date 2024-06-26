@@ -8,30 +8,34 @@
     <link rel="stylesheet" href="screen.css">
   </head>
   <body>
-    <h1>Contact Form</h1>
-    <div>
-        <p>Name:</p>
-        <input type="text" class="name">
-        <p>Email Address</p>
-        <input type="email" class="email">
-        <p>Reason for Contact</p>
-        <select>
-            <option value="Saying Hi">Saying Hi</option>
-            <option value="Looking for a Contractor">Looking for a Contractor</option>
-            <option value="Interested in Interview">Interested in Interview</option>
-        </select>
-        <p>Anything else to add?</p>
-        <input type="text" class="comments">
-        <p>Make sure to click submit!</p>
-        <input type="button" class="buttons" value="Submit" onclick=""/>
-    </div>
-    <nav>
-      <ul>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html" class="active">Contact</a>
-      </ul>
-    </nav>
-    <script src="index.js"></script>
+    <main>
+        <h1>Contact Form</h1>
+        <div>
+            <p>Name:</p>
+            <input type="text" class="name">
+            <p>Email Address</p>
+            <input type="email" class="email">
+            <p>Reason for Contact</p>
+            <select>
+                <option value="Saying Hi">Saying Hi</option>
+                <option value="Looking for a Contractor">Looking for a Contractor</option>
+                <option value="Interested in Interview">Interested in Interview</option>
+            </select>
+            <p>Anything else to add?</p>
+            <input type="text" class="comments">
+            <p>Make sure to click submit!</p>
+            <input type="button" class="buttons" value="Submit" onclick=""/>
+        </div>
+        <div class="sticky">
+          <nav>
+            <ul>
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="contact.html" class="active">Contact</a>
+            </ul>
+          </nav>
+        </div>
+        <script src="index.js"></script>
+    </main>
   </body>
 </html>
